@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+  
+}
+
+svg {
+  font: 10px sans-serif;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.tile-text {
+  cursor: default;
+}
+
+#title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#description {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px Arial;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+#legend {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
